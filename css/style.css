@@ -1,0 +1,420 @@
+@import 'nav.css';
+@import 'contact.css';
+@import 'mentionlegal.css';
+@import 'variable.css';
+@import 'nous.css';
+@import 'footer.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+body{
+    font-family: 'lato', sans-serif;
+
+}
+h1{
+    color: #D96930;
+    font-size: 6.25rem;
+    line-height: 1rem;
+
+}
+
+h2{
+    color: #AD3635;
+    font-size: 3rem ;
+}
+
+h3{
+    color: #AD3635;
+    font-size: 2.625rem;
+}
+
+h4{
+    color: #AD3635;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+main{
+    padding-top: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
+
+}
+
+
+.background{
+    width: 100vw;
+    height: 100vh;
+    background: url("../img/Fond_Pres.svg") 50% 50% no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+li{
+    list-style: none;
+   }
+
+a, a:hover{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: white;
+    
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.nav-link > a{
+    color: grey;
+    margin: 10px;
+}
+
+.nav-btn{
+    background:#D96930;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav-btn > a{
+    color: white;
+}
+
+
+.texterouge{
+    color: #AD3635;
+    font-size: 1.563rem;
+}
+
+.colororange{
+    color: #D96930;
+    font-size: 1rem;
+
+
+
+}
+
+.form-input{
+    border-radius: 30px;
+    padding: 10px 20px;
+    padding-right: 150px;
+    border-color: grey;
+    
+   
+}
+
+
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-70{
+    width: 70%;
+}
+
+.section-btn {
+
+    background:#D96930;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    
+    
+}
+
+.pad1{
+    padding-top: 150px;
+    margin-bottom: -100px;
+}
+
+
+
+
+.illustration{
+    width: 370px;
+    padding: 98px;
+}
+
+.colorgris{
+    font-size: 0.8rem;
+    color: grey;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.lancement{
+    background-image: url(../img/Ellipse\ 46.png);
+    background-size: contain;
+    align-items: center;
+    background-repeat: no-repeat;
+    width: 700vw;
+    height: 70vh;
+    
+
+}
+
+.item-center{
+    margin-left: 235px;
+    margin-top: 50px;
+}
+
+.blog{
+    background: white;
+    border-radius: 30px;
+    color: #AD3635;
+    font-size: 0.9rem;
+    margin-right: 20px;
+    margin-left: 20px;
+    width: 900px;
+    height: 470px;
+    padding: 40px;
+    box-shadow: grey 0 0 15px;
+    overflow: hidden;
+    margin-bottom: 170px;
+    padding-top: 50px;
+    border-width: 7px;
+    border-color: #AD3635;
+    border-style: solid;
+    margin-top: 10px;
+}
+
+.blog2{
+    background: white;
+    border-radius: 20px;
+    border-width: 7px;
+    border-color: #AD3635;
+    border-style: solid;
+    padding-bottom: 77px;
+    width: 550px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 0.8rem;
+
+    
+}
+.blog3{
+    background: white;
+    border-radius: 20px;
+    border-width: 7px;
+    border-color: #DA6A2B;
+    border-style: solid;
+    padding-bottom: 77px;
+    width: 550px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 0.8rem;
+
+    
+}
+
+.blog4{
+    background: white;
+    border-radius: 20px;
+    border-width: 7px;
+    border-color: #AD3635;
+    border-style: solid;
+    padding-bottom: 77px;
+    width: 550px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 0.8rem;
+
+    
+}
+
+.blog5{
+    background: white;
+    border-radius: 20px;
+    border-width: 7px;
+    border-color: #F3B048;
+    border-style: solid;
+    padding-bottom: 77px;
+    width: 550px;
+    height: 100px;
+    margin-top: 50px;
+    font-size: 0.8rem;   
+}
+
+
+
+
+.blog1text{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;  
+    padding-bottom: 18px;
+    font-size: 0.7rem; 
+    color: black;
+
+}
+
+.titreminiblog1{
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 67px;
+    font-size: 2rem;
+    padding-bottom: 8px;
+    color: #AD3635;
+}
+
+
+.titreminiblog2{
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 67px;
+    font-size: 2rem;
+    padding-bottom: 8px;
+    color: #D96930;
+}
+
+
+.titreminiblog3{
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 67px;
+    font-size: 2rem;
+    padding-bottom: 8px;
+    color: #AD3635;
+}
+
+.titreminiblog4{
+    text-align: center;
+    margin-bottom: -10px;
+    padding-top: 67px;
+    font-size: 2rem;
+    padding-bottom: 8px;
+    color: #F5B859;
+}
+
+
+
+.margblogmini {
+    margin-left: 473px;
+}
+
+
+
+
+.titreblog{
+    color: #D96930;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.centre{
+    padding-bottom: 40px;
+    margin-top: 145px;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.pad{
+    margin-bottom: -71px;
+}
+
+
+.imgcity{
+    width: 200px;
+}
+
+.imgcity1{
+    width: 252px;
+    margin-left: 1px;
+    margin-right: 0px;
+    border-radius: 0px 12px 12px 0px;
+    margin-top: 77px;
+}
+
+.imgcity2{
+    width: 254px;
+    margin-left: 1px;
+    margin-right: 0px;
+    border-radius: 0px 12px 12px 0px;
+    margin-top: 77px;
+}
+
+.imgcity3{
+    width: 257px;
+    margin-left: 1px;
+    margin-right: 0px;
+    border-radius: 0px 13px 12px 0px;
+    margin-top: 84px;
+}
+
+.imgcity4{
+    width: 263px;
+    margin-left: 1px;
+    margin-right: 0px;
+    border-radius: 0px 12px 12px 0px;
+    margin-top: 77px;
+}
+
+
+.imgcityradius{
+    border-radius: 12px 12px 12px 12px;
+}
+
+.pmentionlegal{
+    padding-left: 100px;
+    
+
+}
+
+.pmentionlegal2{
+    padding-left: 300px;
+
+}
+
+.pmentionlegal, .pmentionlegal2{
+    font-weight: 700;
+    line-height: 60px;
+    font-size: 1.2rem;
+    color: black;
+
+}
+
+.numero1{
+    color: black;
+    text-align: center;
+}
+
+.fonctionnalitees, .nous, .cont, .rejoindre {
+    position: relative;
+}
+
+
+.illustration1{
+    padding: 98px;
+    height: 242px;
+}
+
+.imgfoot{
+    height: 166px;
+}

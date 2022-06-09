@@ -1,0 +1,22 @@
+/* Color styles */
+:root{
+    --orange: #D96930;
+    --rouge: #AD3635;
+    --jaune: #F3B048;
+    --fond: #FBFBF9;
+    --default--blanc: #FFFFFF;
+    --default--noir: #000000;
+    --gris--1: #C2C2C2;
+    --gris--2: #696663;
+    --gris--3: #616161;
+    --gris--4: #303030;
+    --gris--075: #DFDFDF;
+
+
+
+    /* Font-family styles */
+    --font-family: 'Lato', sans-serif;
+
+    }
+
+    

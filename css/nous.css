@@ -1,0 +1,239 @@
+/*card qui sommes nous*/
+
+
+.wrapper {
+	height: 500px;
+	margin: 8% auto 0;
+	width: 350px;
+	position: relative;
+	perspective: 800px;
+    
+}
+.wrapper .box {
+	position: absolute;
+	transition: transform 0.5s;
+	transform-style: preserve-3d;
+	height: 100%;
+	width: 100%;
+}
+.wrapper .box .front, .wrapper .box .back {
+	display: block;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	backface-visibility: hidden;
+}
+.wrapper .box .front {
+	background-color: var(--default--blanc);
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.front h2 {
+	font-size: 30px;
+    font-weight:normal;
+    font-family: 'Lato', sans-serif;
+	text-align: center;
+	margin-top: 10%;
+	color: var(--rouge);
+	text-transform: uppercase;
+}
+.front h5 {
+	font-size: 15px;
+	text-align: center;
+	margin: 0 0 30px 0;
+	text-transform: uppercase;
+	color: #fff;
+}
+.wrapper .box .back {
+	background-color: #fff;
+	transform: rotateY(180deg);
+}
+.wrapper .btn {
+	margin-top: 25px;
+}
+.wrapper .box.animated {
+	transform: rotateY(-180deg);
+}
+.wrapper .close {
+	display: block;
+	font-size: 50px;
+	position: absolute;
+	top: 15px;
+	right: 7%;
+	text-decoration: none;
+	color: var(--rouge);
+ 
+}
+.btn {
+	color: var(--default--blanc);
+	display: block;
+	font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+	margin: 0 auto;
+	max-width: 300px;
+	padding: 15px 0;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	background: var(--rouge);
+	border-radius: 15px;
+}
+.container {
+	background-color: var();
+	padding: 60px;
+	height: 380px;
+	text-align: center;
+	color: var(--rouge);
+    
+}
+.img-area {
+	width: 190px;
+	height: 190px;
+	overflow: hidden;
+	margin: 8% auto 0;
+	border-radius: 50%;
+	border: 0px solid rgb(214, 151, 151);
+}
+.img-area img {
+	width: 100%;
+}
+
+.icon-reseau-card{
+    display: flex;
+    justify-content: center;
+}
+
+.petite-icon-fb{
+    padding-left: 125px;
+}
+
+.text-area h2 {
+	margin: 0;
+	text-transform: uppercase;
+}
+.skill-area {
+	width: 100%;
+}
+.skill-area p {
+	font-weight: 700;
+	text-align: left;
+}
+.single-skill {
+	background: #262626;
+}
+.skills {
+	text-align: right;
+	color: var(--default--blanc);
+	background: linear-gradient(to right, var(--rouge), var(--rouge));
+	font-weight: 700;
+}
+
+.adress-card{
+    color: var(--rouge);
+    font-size: 15px;
+    font-weight:normal;
+    font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+a:link 
+{ 
+ text-decoration:none; 
+
+} 
+
+.container-qui-sommes-nous{
+    display: flex;
+}
+
+.en-lire-plus-sur-nous{
+    padding: 118px;
+}
+
+.mail-arthur{
+   
+    color: #D96930;
+    padding: 80px;
+    margin-top: 23px;
+}
+
+.tel-arthur{
+ 
+    color: #D96930;
+    padding: 125px;
+}
+
+.pnotreequipe{
+	color: white;
+    font-size: 1rem;
+    font-family: 'lato', sans-serif;
+    background: #D96930;
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+	box-shadow: #D96930 0 0 15px;
+
+}
+
+.titrecenter{
+	text-align: center;
+	padding-top: 60px;
+}
+
+/*loris*/
+.one {
+	width: 50%;
+}
+.two {
+	width: 50%;
+}
+.three {
+	width: 25%;
+}
+.four {
+	width: 70%;
+}
+
+.five{
+	width: 90%;
+}
+
+/*asma*/
+.six{
+    width: 85%;
+}
+
+.seven {
+	width: 80%;
+}
+.eight {
+	width: 60%;
+}
+.nine {
+	width: 70%;
+}
+.ten {
+	width: 35%;
+}
+
+/*arthur*/ 
+
+.eleven {
+	width: 35%;
+}
+.twelve{
+	width: 30%;
+}
+.thirteen{
+	width: 20%;
+}
+.fourteen {
+	width: 80%;
+}
+.fifteen {
+	width: 100%;
+}
