@@ -57,9 +57,9 @@ ul li:hover {
   transition: 0.3s;
 }
 
-a:hover{
+a:hover {
   color: #d96930;
-  font-weight:900;
+  font-weight: 900;
 }
 
 #login,
